@@ -313,7 +313,7 @@ waicTable2$deltaWAIC <- waicTable2$WAIC - min(waicTable2$WAIC)
 waicTable2 %>% kable(digits=2)
 
 
-# 11. Neg. Binom. for comparison
+#Neg. Binom. for comparison
 
 rm(draws_b); gc()
 
